@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav img {
+    width: 60px;
+}
+.in{
+    font-size: 22px;
+}
+.p{
+    height: 85vh;
+}
+.fs{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img{
+    width: 400px;
+    
+}
+.slider img{
+    max-width: 1140px;
+    height: 550px;
+}
+.slider{
+    transition: 0.8s all;
+}
+.slide{
+    min-width: 100%;
+    transition: 0.5s all;
+}
+.sec{
+    overflow: hidden;
+    position: relative;
+}
+.d-flex{
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.butn{
+    position: absolute;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.butn button{
+    font-size: 20px;
+    transition: 0.5s all;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: white;
+}
+.butn button:hover{
+    background-color: rgba(0, 0, 0, 0.295);
+    color: white;
+}
+.all{
+    background-color: #183153;
+    color: white;
+}
